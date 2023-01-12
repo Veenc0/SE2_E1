@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- Turn TRACE, DEBUG, INFO, WARN, ERROR, FATAL messages during test runs OFF -->
+    <include resource="org/springframework/boot/logging/logback/base.xml" />
+    <logger name="org.springframework" level="OFF"/>
+</configuration>

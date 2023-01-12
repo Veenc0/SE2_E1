@@ -1,0 +1,63 @@
+### general files to ignore ###
+.DS_Store
+._.DS_Store
+._.*
+
+### ignore STS, eclipse project files ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### ignore IntelliJ IDEA project files ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### ignore NetBeans project files ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### ignore VS Code project files ###
+# .vscode/
+
+### ignore maven wrappers ###
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### ignore package Files ###
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+### ignore compiled java files ###
+target
+*.class
+
+### ignore compiled Javadocs ###
+doc
+
+### ignore log files ###
+*.log
+
+
+### exclude project-specific parts ####
+db-freerider
+tmp
+
